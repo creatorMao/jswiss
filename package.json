@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "jswiss",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "jswiss - 像瑞士军刀一样的JavaScript工具",
   "main": "index.js",
   "files": [
