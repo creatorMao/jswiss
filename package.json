@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "jswiss",
+  "version": "1.0.2",
+  "description": "jswiss - 像瑞士军刀一样的JavaScript工具",
+  "main": "index.js",
+  "exports": {
+    ".": "./core/index.js",
+    "./node": "./node/index.js",
+    "./browser": "./browser/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "typescript": "^5.8.3"
+  }
+}
