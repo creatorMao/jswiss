@@ -1,3 +1,3 @@
-export function test(params) {
-    console.log('11');
+export function test() {
+  console.log("11");
 }
