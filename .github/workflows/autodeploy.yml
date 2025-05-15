@@ -1,4 +1,4 @@
-name: auto deploy for vue project
+name: auto deploy docs
 
 #当在mster分支上，进行push、pull_requests操作时，会触发此工作流。
 on:
