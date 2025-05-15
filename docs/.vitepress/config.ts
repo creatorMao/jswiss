@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/jswiss/",
   title: "jswiss",
   description: "像瑞士军刀一样的 JavaScript 工具",
   themeConfig: {
