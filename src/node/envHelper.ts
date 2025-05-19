@@ -1,4 +1,4 @@
-import fs from "fs";
+import * as fs from "node:fs";
 
 /**
  * 替换env文里的多个变量值
@@ -6,7 +6,7 @@ import fs from "fs";
  * @param map 变量map形式的键值对
  */
 function replaceEnvVar(envPath: string, map: Map<any, any>): void {
-  let envContents = fs.readFileSync(envPath, "utf8");
+  let envContents = fs.readFileSync(envPath, "utf8") as string;
 
   let lines = envContents.split(/\r?\n/); // 处理不同换行符
 
@@ -50,7 +50,7 @@ function replaceEnvVar(envPath: string, map: Map<any, any>): void {
  * @returns 变量值
  */
 function getEnvVar(envPath: string, key: string): string {
-  let envContents = fs.readFileSync(envPath, "utf8");
+  let envContents = fs.readFileSync(envPath, "utf8") as string;
 
   let lines = envContents.split(/\r?\n/); // 处理不同换行符
 
