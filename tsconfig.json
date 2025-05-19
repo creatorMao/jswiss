@@ -9,5 +9,5 @@
     "esModuleInterop": true, // 兼容 ESM/CJS
     "strict": true // 严格模式
   },
-  "include": ["src/**/*"]
+  "include": ["./src/**/*"]
 }
