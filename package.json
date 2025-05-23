@@ -14,7 +14,7 @@
   },
   "scripts": {
     "preBuild": "rm -rf dist",
-    "build": "tsc",
+    "build": "npm run prebuild && tsc",
     "prepublishOnly": "npm version patch && npm run build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
