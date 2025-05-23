@@ -13,6 +13,7 @@
     "./browser": "./dist/browser/index.js"
   },
   "scripts": {
+    "preBuild": "rm -rf dist",
     "build": "tsc",
     "prepublishOnly": "npm version patch && npm run build",
     "docs:dev": "vitepress dev docs",
