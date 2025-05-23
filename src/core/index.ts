@@ -1,1 +1,1 @@
-//export { default as regexHelper } from "./regexHelper.js";
+export { default as RegexHelper } from "./RegexHelper.js";
