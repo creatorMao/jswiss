@@ -1,3 +1,1 @@
-export function test() {
-  console.log("11");
-}
+export { default as RegexHelper } from "./RegexHelper.js";
